@@ -19,8 +19,8 @@ app.get("/about", function(req, res) {
 	res.sendFile(__dirname+"/about.html");
 })
 
-app.get("/influencers", function(req, res) {
-	res.sendFile(__dirname+"/influencers.html");
+app.get("/partners", function(req, res) {
+	res.sendFile(__dirname+"/partners.html");
 })
 
 app.get("/contact", function(req, res) {
