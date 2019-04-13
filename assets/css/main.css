@@ -3935,7 +3935,7 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 				background-image: url("images/mobile.png"); 
-				background-size: 100% 90%;
+				background-size: 100% 100%;
 			}
 
 
