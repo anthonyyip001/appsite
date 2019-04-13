@@ -26,6 +26,10 @@ app.get("/partners", function(req, res) {
 app.get("/contact", function(req, res) {
 	res.sendFile(__dirname+"/contact.html");
 })
+app.post("/mail.php", function(req, res) {
+	res.sendFile(__dirname+"/index.html");
+})
+
 
 
 app.listen(port, function() {
