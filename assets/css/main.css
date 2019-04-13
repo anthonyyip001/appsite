@@ -3933,7 +3933,7 @@ input, select, textarea {
 		@media screen and (max-width: 500px) {
 
 			#intro {
-				background-attachment: fixed;
+				background-attachment: scroll;
 				background-image: url("images/mobile.png"); 
 				background-size: 100% 90%;
 			}
