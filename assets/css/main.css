@@ -2549,11 +2549,13 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+			
 		}
 
 		.image.left, .image.right {
@@ -3008,6 +3010,8 @@ input, select, textarea {
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
+				max-height: 100%;
+				max-width: 100%;
 			}
 
 			.spotlights > section > .image:before {
