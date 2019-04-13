@@ -26,7 +26,10 @@ app.get("/partners", function(req, res) {
 app.get("/contact", function(req, res) {
 	res.sendFile(__dirname+"/contact.html");
 })
-app.post("/mail.php", function(req, res) {
+app.post("/submit", function(req, res) {
+	const email = req.body.email
+	
+	
 	res.sendFile(__dirname+"/index.html");
 })
 
