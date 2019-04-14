@@ -11,8 +11,8 @@ app.get("/", function(req, res) {
 	res.render("index.html");
 })
 
-app.get("/social", function(req, res) {
-	res.sendFile(__dirname+"/social.html");
+app.get("/hidden", function(req, res) {
+	res.sendFile(__dirname+"/hidden.html");
 })
 
 app.get("/about", function(req, res) {
