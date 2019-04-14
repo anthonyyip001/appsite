@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<title>Tip Map App</title>
+		<link rel="shortcut icon" href="images/title.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -104,9 +105,7 @@
 							<a href="#" class="image"><img src="images/social.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-										<section id="four">
-
-										</section>
+										
 									<h2>To Travel Influencers</h2>
 									<p>Tip Map aims to be the first influencer-driven travel map app. If you're a travel influencer interesting in partering up and having your recommendations featured on Tip Map, contact through <a href="https://thingsinworld.herokuapp.com/">"Top 10".</a></p>
 									<ul class="actions">
@@ -167,15 +166,15 @@
 							<p>Unless I am getting hundreds of messages, I will read and respond within one business day since I believe suggestions will help shape this app. Putting influencer suggestion and then name or link will influence next batch of partners.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form accept-charset="UTF-8" method="post" action="https://www.formbackend.com/f/11bc4ea77be9a500">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" id="name" required>
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
+												<input type="email" name="email" id="email" required/>
 											</div>
 
 											<div class="field">
@@ -183,47 +182,64 @@
 												<select name="field-category" id="field-category">
 													<option value="">- Category -</option>
 													<option value="1">General</option>
-													<option value="1">Suggestion</option>
-													<option value="1">Report a Bug</option>
-													<option value="1">Influencer Suggestion</option>
+													<option value="2">Suggestion</option>
+													<option value="3">Report a Bug</option>
+													<option value="4">Influencer Suggestion</option>
 												</select>
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<textarea type="message" name="message" id="message" rows="5"></textarea>
 											</div>
 											
 
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><button type="submit" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
 								</section>
 								<section>
 									<ul class="contact">
-										<li>
+										<!-- <li>
 											<h3>Email</h3>
 											<a href="#">user@untitled.tld</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
 											<span>(000) 000-0000</span>
-										</li>
+										</li> -->
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
 												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
 												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
 												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											
 											</ul>
 										</li>
 									</ul>
 								</section>
 							</div>
 						</div>
+					</section>
+
+					<section id="four" class="wrapper style4 fade-up">
+						<div class="inner">
+							<h2 class="major">Top 10 Things to do in countries</h2>
+							<p>This is a top 10 list travel blog that will have 10 places you have to visit when in certain countries. Meant to be used alongside Tip Map so you can add points and view tips on the Tip Map App on-the-go.</p>
+							
+											<ul class="actions stacked">
+												<li><a href="https://thingsinworld.herokuapp.com/" class="button fit">THINGS TO DO IN WORLD</a></li>
+												
+											</ul>
+							
+
+
+
+
+						</div>
+
 					</section>
 
 			</div>
